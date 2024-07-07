@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pig Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button class="try">🔄 NEW GAME</button>
+    <img class="img" src="dice-3.png" alt="" />
+    <div class="box">
+      <form class="form1" action="">
+        <h1 class="player1" style="margin-top: 8%; font-weight: 500">
+          PLAYER 1
+        </h1>
+
+        <h2 class="total-score1">0</h2>
+        <div class="box2">
+          CURRENT
+          <p class="current-score1">0</p>
+        </div>
+      </form>
+      <form class="form2" action="">
+        <h1 class="player2" style="margin-top: 8%; font-weight: 500">
+          PLAYER 2
+        </h1>
+        <h2 class="total-score2">0</h2>
+        <div class="box3">
+          CURRENT
+          <p class="current-score2">0</p>
+        </div>
+      </form>
+    </div>
+    <div>
+      <button class="roll">🎲 ROLL DICE</button>
+      <button class="hold win">📥 HOLD</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="scrpit.js"></script>
+  </body>
+</html>
